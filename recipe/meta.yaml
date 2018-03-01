@@ -1,5 +1,5 @@
-{% set version = "4.0.2" %}
-{%set sha256 = "739af415c7cc35d9aa4a117871b7444a0681e641124f0ddd8e79ff34a25a9386" %}
+{% set version = "4.0.3" %}
+{%set sha256 = "680153225128900dbf1b063a2915fcc6bd6c00188513bb74bed52393e1a2a7c0" %}
 
 package:
   name: libconda
