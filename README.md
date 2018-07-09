@@ -14,14 +14,15 @@ Summary: conda 4.0 based library
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libconda-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libconda-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libconda-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libconda-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libconda-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libconda-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/libconda-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/libconda-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libconda/badges/version.svg)](https://anaconda.org/conda-forge/libconda)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libconda/badges/downloads.svg)](https://anaconda.org/conda-forge/libconda)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libconda-green.svg)](https://anaconda.org/conda-forge/libconda) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libconda.svg)](https://anaconda.org/conda-forge/libconda) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libconda.svg)](https://anaconda.org/conda-forge/libconda) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libconda.svg)](https://anaconda.org/conda-forge/libconda) |
 
 Installing libconda
 ===================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
